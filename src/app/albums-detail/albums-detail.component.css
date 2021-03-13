@@ -17,25 +17,10 @@ button{
   transition: all 0.3s ease;
   /*transform: scale(1.5);*/
   padding-bottom: 3px;
+  text-decoration: none;
 }
 
 button:hover{
-  background-color: red;
-  color: white;
-}
-a {
-  background-color: white;
-  border: none;
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  margin: 30px;
-  font-family: 'Kanit', sans-serif;
-  transition: all 0.3s ease;
-  /*transform: scale(1.5);*/
-  padding-bottom: 3px;
-}
-a:hover{
   background-color: red;
   color: white;
 }

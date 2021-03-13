@@ -5,7 +5,7 @@
 
   <button (click)="updateAlbum()">Save</button>
   <button (click)="goBack()">Go Back</button>
-  <a routerLink="/albums/{{album.id}}/photos">Photos</a>
+  <button><a routerLink="/albums/{{album.id}}/photos">Photos</a></button>
 </div>
 
 <p *ngIf="!loaded">Please wait. Album is loading...</p>
