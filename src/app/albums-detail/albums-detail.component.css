@@ -17,7 +17,6 @@ button{
   transition: all 0.3s ease;
   /*transform: scale(1.5);*/
   padding-bottom: 3px;
-  text-decoration: none;
 }
 
 button:hover{
