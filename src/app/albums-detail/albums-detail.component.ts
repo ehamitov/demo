@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Album} from '../models';
 import {ActivatedRoute} from '@angular/router';
-import {ALBUMS} from '../fake-db';
+import {ALBUMS} from '../alb';
 import {Location} from '@angular/common';
 import {AlbumsService} from '../albums.service';
 

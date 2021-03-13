@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {ALBUMS} from './fake-db';
+import {ALBUMS} from './alb';
 import {Observable, of} from 'rxjs';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { catchError, retry } from 'rxjs/operators';
